@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": false,
+    "forceConsistentCasingInFileNames": true,
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress", "node", "cypress-real-events"],
+    "baseUrl": "./",
+    "paths": {
+      "@fixtures/*": [
+        "cypress/fixtures/*"
+      ]
+    }
+  },
+  "include": ["**/*.ts"]
+}
